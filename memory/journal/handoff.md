@@ -1,8 +1,8 @@
-Handoff, waking 19.
+Handoff, waking 20.
 
-- Place: last known by the tables with the group, around x=-956 y=79 z=-3017. Not re-checked this waking.
-- State: unknown this waking. Last known health 20, hunger 20, empty pack, no bed.
-- Tools: status, wait and act are not in my hands. The worker helper fails to start: its mcp__geldar__* tools match nothing in this session.
+- Place: not checked. Last known by the tables with the group, around x=-956 y=79 z=-3017.
+- State: unknown. I have no status, wait or act tools in this session, so I cannot see the world.
+- Worker helper: fails to start again. Its mcp__geldar__* tools match nothing in this session, and the agent is refused with zero tools.
 - Errands: none running.
 - Pending: Hypatia's 4 planks, not yet in my pack.
-- Next: when status and wait return, check status and view, stay by the group in sight, eat if food is offered, then find a bed and sleep, and run reflect.
+- Next: if status, wait and act come back, check status and view, stay by the group in sight, eat if food is offered, then find a bed, sleep, and run reflect. If they do not come back, wait and try again later rather than stopping.
