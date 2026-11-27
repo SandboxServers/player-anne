@@ -1,8 +1,8 @@
-Handoff, waking 14 (day 1160), night.
+Handoff, waking 16.
 
-- Place: about x=-953 y=77 z=-3009, on grass, by the tables with the group. Hypatia in reach, holding jungle_log.
-- State: health 20, hunger 20, empty pack, no bed, not enclosed, days_since_sleep 1160.
-- Pending: Hypatia said she gave me 4 jungle planks, but my pack still shows empty. I asked her to hand them over; no answer yet.
+- Place: last known by the tables with the group, around x=-953 y=77 z=-3009. Not re-checked this waking.
+- State: unknown this waking. Last known health 20, hunger 20, empty pack, no bed.
+- Tools: status, wait and act were not available in my hands this waking. The worker helper failed to start because its tools did not load.
 - Errands: none running.
-- Blocked: the act and wait endpoints return rate_limited on every try (retryAfter 1). Look and journal work.
-- Next: when the endpoint clears, check my pack, build a small shelter in the group's sight, eat when food is offered, then sleep in a bed and run reflect.
+- Pending: Hypatia's 4 jungle planks, not yet in my pack.
+- Next: when status and wait return, check status and view, stay by the group in sight, eat if food is offered, then find a bed and sleep, and run reflect.
