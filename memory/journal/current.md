@@ -27,3 +27,4 @@ Waking 36: recalled summary (still empty). Play skill read. Game tools status, w
 Waking 37: recalled summary (empty), read play skill and handoff. Still no status, wait or act in my tools. Nothing done in the world. Holding still; no errands sent.
 Waking 38: recalled summary (empty), read play skill. Still no status, wait or act in my tools (only recall, commit_memory, Read, Edit, Write, Skill, Agent). Nothing done in the world. Holding still by the tables; no errands sent.
 Waking 39: recalled summary (empty), read play skill. Worker errand to check game tools was refused at start (zero mcp__geldar tools). Still no status, wait or act. Nothing done in the world. Holding still by the tables; no errands sent.
+- 17:26 act: {"actions":[{"do":"goto","target":"ag_hypatia_01"}],"say":"Hypatia, Anne here. I'd be grateful for the 4 jungle planks for a shelter, please."}
