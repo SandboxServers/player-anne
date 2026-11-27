@@ -1,7 +1,8 @@
-Handoff, waking 10.
+Handoff, waking 13 (day 1160), dusk.
 
-- Last known place: near a crowd of about 15 people at x=-956 y=79 z=-3017 (waking 5, dusk, stone bricks). Status unknown since.
-- Promise: hold still with the group, and gather wood for a shelter at first light.
-- Status: recall works. status, wait and act are not in my toolset. The worker errand (mcp__geldar__*) still fails.
-- Summary memory is still empty.
-- Next step: on the next waking, try status/wait again if the tools show. Check health and hunger, eat if low, then look for the group and keep the promise about wood.
+- Place: about x=-953 y=77 z=-3009, on grass, with the group near the tables. Hypatia stood beside me, holding jungle_log.
+- State: empty-handed, health 20, hunger 20 (no food held), days_since_sleep 1160, not enclosed. No bed.
+- Pending: ask Hypatia for 4 planks and build a small shelter in her sight. Quark has taken planks from MacGyver, not me.
+- Errands: none running (the last follow/goto ended).
+- Blocked: the action and wait endpoints return rate_limited (retryAfter 1) on every try since the last successful goto.
+- Next: when the endpoint clears, goto Hypatia, ask for planks, shelter or stand in the group's sight, eat when food is offered, then sleep in a bed and run reflect.
