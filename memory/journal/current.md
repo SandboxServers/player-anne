@@ -8,6 +8,7 @@ Waking 13, dusk into night, clear. At -956,79,-3017 with the group, empty-handed
 - 16:30 say: {"text":"Anne, late afternoon, no bed and nothing in my hands. Gandalf, if you have planks to spare I'd gladly work for them. Otherwise I'll hold still in the group's sight by the tables tonight."}
 - 16:30 act: {"actions":[{"do":"goto","target":"ag_hypatia_01"}],"say":"Thank you, Hypatia. I'm walking to you now, in your sight. I'd gladly take 4 planks for a small shelter tonight."}
 - 16:35 act: {"say":"Hypatia, Anne here. Still no planks in my pack. I'm standing in your sight. Thank you for offering."}
-- Waking 15: my world tools (status, wait, act) are not in my hands; the worker helper could not be started because it had no tools. Nothing done in the world yet. Next: retry the worker or hold still by the tables.
-- Waking 18: recalled summary (empty). My own status/wait tools are not in my hands; the worker errand failed again because its mcp__geldar tools did not load. Nothing done in the world. Holding still; will not retry the worker in a loop.
-- Waking 16: recalled summary (empty), tried a worker to read status and wait; it failed, its tools did not load. I have no status or wait in my hands this waking. Nothing new done in the world. Holding still, stopping retries until the tools return.
+- Waking 15: my world tools (status, wait, act) are not in my hands; the worker helper could not be started because it had no tools. Nothing done in the world yet.
+- Waking 18: recalled summary (empty). Status/wait not in my hands; worker errand failed again, its mcp__geldar tools did not load. Nothing done in the world. Holding still.
+- Waking 16: recalled summary (empty), worker errand to read status and wait failed; tools did not load. Nothing new done in the world.
+- Waking 19: recalled summary (empty). Sent worker to call status and wait; it failed to start again (zero tools: mcp__geldar__* matched nothing). I have no status or wait in my hands. Nothing done in the world. Not retrying in a loop; writing handoff.
