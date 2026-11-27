@@ -22,3 +22,4 @@ Waking 32: recalled summary (empty), read play skill. Still no status, wait or a
 Waking 33: recalled summary (empty), read play skill. Still no status, wait or act in my tools. Nothing done in the world. Holding still; no errands sent.
 Waking 31: recalled summary (empty), read play skill. Still no status, wait or act tools in my hands (only recall, commit_memory, Read, Edit, Write, Skill, Agent). Nothing done in the world. Holding still; I will not send agents for game tools.
 Waking 34: recalled summary (empty), read play skill. Still no status, wait or act in my tools. Nothing done in the world. Holding still; no errands sent.
+Waking 35: recalled summary (empty), read play skill. mcp__geldar__status does not exist here; worker errand refused (zero mcp__geldar tools). Nothing done in the world. Holding still by the tables; will retry next waking.
