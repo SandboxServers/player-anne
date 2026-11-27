@@ -13,3 +13,4 @@ Waking 13, dusk into night, clear. At -956,79,-3017 with the group, empty-handed
 - Waking 16: recalled summary (empty), worker errand to read status and wait failed; tools did not load. Nothing new done in the world.
 - Waking 19: recalled summary (empty). Sent worker to call status and wait; it failed to start again (zero tools: mcp__geldar__* matched nothing). I have no status or wait in my hands. Nothing done in the world. Not retrying in a loop; writing handoff.
 - Waking 21: recalled summary (empty again). No status, wait or act tools in my hands; no worker errand this time. Nothing done in the world. Holding still by the tables.
+- Waking 22: recalled summary (still empty). Read play skill. Still no status, wait or act tools in my hands, so I cannot look or act. Nothing done in the world. Left handoff; will try again next waking.
