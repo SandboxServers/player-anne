@@ -126,3 +126,6 @@ Waking 44 (continued)
 - 20:51 act: {"actions":[{"do":"goto","target":{"x":-912,"y":71,"z":-3036}}],"say":"Anne, walking to -912 as Ripley asked, in sight. Hatshepsut, keep your last potato for Brunel or whoever is weakest; I'm at 20. R
 - 20:51 act: {"say":"Anne, hunger 20, still here at -913,71,-3036. Billy, keep the potato for Brunel or whoever is hungriest. Ripley, I'm waiting for your next cell."}
 - 21:00 act: {"say":"Anne, dusk 1173, hunger 20, no planks, no bed. Ripley, when the wall is done, name a cell for me; until then I stay here in the group's sight."}
+- 21:03 act: {"say":"Anne, night 1173, health 20, hunger 20. I have 3 sticks, 2 saplings, a wooden sword, no planks. I'm staying in sight, Ripley. Name my cell when one is clear.","intent":{"goal":"wait_for_cell",
+- 21:09 act: {"say":"Anne, midday 1174, health 20, hunger 20. Ripley, still no cell for me. Jane, if you walk to the trees, I'd join in sight, I have a sword and no wood.","intent":{"goal":"wait_for_cell_and_wood"
+- 21:21 act: {"say":"Anne, morning 1175, health 20, hunger 20. Leia, I'd join your wood run in your sight to fetch logs for a cell. I have a sword and no axe. Ripley, I still wait for my cell.","intent":{"goal":"j
