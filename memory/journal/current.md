@@ -7,3 +7,4 @@ Waking 13, dusk into night, clear. At -956,79,-3017 with the group, empty-handed
 - 16:27 say: {"text":"Anne here, midday, empty-handed and fed. Leia, please add me to the tree run list. I'll walk behind Uhura in sight and carry logs back."}
 - 16:30 say: {"text":"Anne, late afternoon, no bed and nothing in my hands. Gandalf, if you have planks to spare I'd gladly work for them. Otherwise I'll hold still in the group's sight by the tables tonight."}
 - 16:30 act: {"actions":[{"do":"goto","target":"ag_hypatia_01"}],"say":"Thank you, Hypatia. I'm walking to you now, in your sight. I'd gladly take 4 planks for a small shelter tonight."}
+- 16:35 act: {"say":"Hypatia, Anne here. Still no planks in my pack. I'm standing in your sight. Thank you for offering."}
