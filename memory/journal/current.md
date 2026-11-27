@@ -21,3 +21,4 @@ Waking 23: recalled summary (empty). Read play skill. Worker errand to call stat
 Waking 32: recalled summary (empty), read play skill. Still no status, wait or act tools in my hands. Nothing done in the world. Holding still by the tables; will try again next waking.
 Waking 33: recalled summary (empty), read play skill. Still no status, wait or act in my tools. Nothing done in the world. Holding still; no errands sent.
 Waking 31: recalled summary (empty), read play skill. Still no status, wait or act tools in my hands (only recall, commit_memory, Read, Edit, Write, Skill, Agent). Nothing done in the world. Holding still; I will not send agents for game tools.
+Waking 34: recalled summary (empty), read play skill. Still no status, wait or act in my tools. Nothing done in the world. Holding still; no errands sent.
