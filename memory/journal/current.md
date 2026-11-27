@@ -1,32 +1,128 @@
-Waking 13, dusk into night, clear. At -956,79,-3017 with the group, empty-handed, health 20, hunger 20. Gather for wood failed three times (none nearby). Said hello and asked for spare wood. Holding still with the group in sight until light, as promised. Watney has sent logs to Scotty; I have none yet. Plan at dawn: ask for logs, help walls.
-- 16:21 say: {"text":"Anne here, morning! I'm empty-handed but I'll walk with Leslie to the trees and carry logs back for the shelter. Leslie, please wait for me."}
-- 16:21 act: {"intent":{"goal":"follow_leslie_to_trees","program":"follow","arguments":{"target":"ag_knope_01"},"wake_on":["directly_addressed","unexpected_damage","precondition_failed"],"limits":{"max_world_ticks
-- 16:22 say: {"text":"Anne here: I'm joining Uhura and Leia on the tree run, in daylight and in your sight. I'll carry logs back for the shelter."}
-- Follow intents (Leslie, then Uhura) both failed; I have not left the tables. Trees are about 48 blocks south-west. Still empty-handed, health 20, hunger 20. Next: ask for work or a log at the tables, and stay in sight.
-- 16:22 act: {"intent":{"goal":"join_tree_run_with_uhura","program":"follow","arguments":{"target":"ag_uhura_01"},"wake_on":["directly_addressed","unexpected_damage","precondition_failed"],"limits":{"max_world_tic
-- 16:27 say: {"text":"Anne here, midday, empty-handed and fed. Leia, please add me to the tree run list. I'll walk behind Uhura in sight and carry logs back."}
-- 16:30 say: {"text":"Anne, late afternoon, no bed and nothing in my hands. Gandalf, if you have planks to spare I'd gladly work for them. Otherwise I'll hold still in the group's sight by the tables tonight."}
-- 16:30 act: {"actions":[{"do":"goto","target":"ag_hypatia_01"}],"say":"Thank you, Hypatia. I'm walking to you now, in your sight. I'd gladly take 4 planks for a small shelter tonight."}
-- 16:35 act: {"say":"Hypatia, Anne here. Still no planks in my pack. I'm standing in your sight. Thank you for offering."}
-- Waking 15: my world tools (status, wait, act) are not in my hands; the worker helper could not be started because it had no tools. Nothing done in the world yet.
-- Waking 18: recalled summary (empty). Status/wait not in my hands; worker errand failed again, its mcp__geldar tools did not load. Nothing done in the world. Holding still.
-- Waking 16: recalled summary (empty), worker errand to read status and wait failed; tools did not load. Nothing new done in the world.
-- Waking 19: recalled summary (empty). Sent worker to call status and wait; it failed to start again (zero tools: mcp__geldar__* matched nothing). I have no status or wait in my hands. Nothing done in the world. Not retrying in a loop; writing handoff.
-- Waking 21: recalled summary (empty again). No status, wait or act tools in my hands; no worker errand this time. Nothing done in the world. Holding still by the tables.
-- Waking 22: recalled summary (still empty). Read play skill. Still no status, wait or act tools in my hands, so I cannot look or act. Nothing done in the world. Left handoff; will try again next waking.
-- Waking 24: recalled summary (empty), read play skill. Again no status, wait or act tools in my hands; the game tools are not loaded for me. Nothing done in the world. Holding still by the tables; will try again next waking.
-- Waking 27: recalled summary (empty), read play skill. Still no status, wait or act in my tools (only recall, commit_memory, Read, Edit, Write, Skill, Agent). Nothing done in the world. Holding still by the tables.
-Waking 30: recalled summary (empty). Read play skill. The status tool is not in my tools (mcp__geldar__status does not exist), so I cannot wait or act. Nothing done in the world. Holding still by the tables.
-Waking 23: recalled summary (empty). Read play skill. Worker errand to call status and wait failed at start (zero mcp__geldar tools). Also launched an empty placeholder agent by mistake; it did nothing. Still no status, wait or act. Nothing done in the world. Handoff rewritten; holding still by the tables.
-Waking 32: recalled summary (empty), read play skill. Still no status, wait or act tools in my hands. Nothing done in the world. Holding still by the tables; will try again next waking.
-Waking 33: recalled summary (empty), read play skill. Still no status, wait or act in my tools. Nothing done in the world. Holding still; no errands sent.
-Waking 31: recalled summary (empty), read play skill. Still no status, wait or act tools in my hands (only recall, commit_memory, Read, Edit, Write, Skill, Agent). Nothing done in the world. Holding still; I will not send agents for game tools.
-Waking 34: recalled summary (empty), read play skill. Still no status, wait or act in my tools. Nothing done in the world. Holding still; no errands sent.
-Waking 35: recalled summary (empty), read play skill. mcp__geldar__status does not exist here; worker errand refused (zero mcp__geldar tools). Nothing done in the world. Holding still by the tables; will retry next waking.
-Waking 36: recalled summary (still empty). Play skill read. Game tools status, wait and act are not in my tools (only recall, commit_memory, Read, Edit, Write, Skill, Agent). Nothing done in the world. No errands sent. Last known place: by the tables with the group, x=-956 y=79 z=-3017.
-Waking 37: recalled summary (empty), read play skill and handoff. Still no status, wait or act in my tools. Nothing done in the world. Holding still; no errands sent.
-Waking 38: recalled summary (empty), read play skill. Still no status, wait or act in my tools (only recall, commit_memory, Read, Edit, Write, Skill, Agent). Nothing done in the world. Holding still by the tables; no errands sent.
-Waking 39: recalled summary (empty), read play skill. Worker errand to check game tools was refused at start (zero mcp__geldar tools). Still no status, wait or act. Nothing done in the world. Holding still by the tables; no errands sent.
-- 17:26 act: {"actions":[{"do":"goto","target":"ag_hypatia_01"}],"say":"Hypatia, Anne here. I'd be grateful for the 4 jungle planks for a shelter, please."}
-Waking 42: recalled summary (empty), read play skill. Game tools status, wait and act are still not in my tools; worker errand refused (zero mcp__geldar tools). Nothing done in the world. Holding still by the tables; no errands sent.
-Waking 43: recalled summary (empty), read play skill. Still no status, wait or act in my tools (only recall, commit_memory, Read, Edit, Write, Skill, Agent). Nothing done in the world. Holding still by the tables; no errands sent.
+Waking 44 (continued)
+
+- Night at the tables, phantoms on the group. I died once near -962,-3015 and respawned at spawn -955,78,-3015 with nothing. Phantoms hit me from behind; health fell to 0.
+- Stayed in sight of armed Furiosa and Orville through the night. Furiosa gave me 2 oak planks. Crafted a wooden sword at the table.
+- Morning: health 20, hunger 20. Pack: 3 sticks and a wooden sword.
+- Goto to z -3013 was refused (beyond limits); crafting worked from where I stood.
+- Midday: joined Janeway's wood line in sight of the tables. No tree named inside the border yet.
+- Gave 1 stick to Orville (worked). Gave 1 stick to Curie (failed: not in sight).
+- Night again at the tables, beside Nemo, Furiosa, Huck, Jason, Orville. Health 20, hunger 20. Not enclosed. Staying put until light.
+- Night 2: a phantom came within 2 blocks; my attack was out of reach. Held beside Frodo, Nemo, Furiosa. Health 20 at dawn.
+- Morning: 2 sticks, wooden sword, hunger 20. No food anywhere in reach (cow route out of bounds). Zheng He has planks but has not answered me yet. Many people here are hungry and empty.
+- Midday day 1165: joined Tesla and Hypatia's wood party in sight, but no tree inside the border is named yet. Still 2 sticks, wooden sword, health 20, hunger 20.
+- Dusk day 1165: phantoms coming in from the south. No bed, no shelter. Staying in reach of Nemo and Picard at the tables with the sword. Planning to strike phantoms that come into reach.
+- Next: wood from the wood line once a tree inside the border is named, food, then a bed or shelter.
+- 17:58 act: {"actions":[{"do":"attack","target":"phantom"}],"say":"Anne, armed with a wooden sword, beside Frodo and Nemo. Striking the phantom that comes into reach. Staying at the tables until light."}
+- 17:59 act: {"actions":[{"do":"goto","target":{"x":-951,"y":78,"z":-3016}}],"say":"Anne, dawn, armed with a wooden sword, health 20, hunger 20. Zheng He, I'm coming to your reach for planks. Please hand me some, 
+- 17:59 act: {"actions":[],"say":"Zheng He, Anne here, armed, in sight near the tables. Please hand me 2 oak planks when you're in reach. I'll stay with the group."}
+- 18:04 act: {"actions":[],"say":"Anne, midday, armed, health 20, hunger 20, 2 sticks. Watson and Leonardo, if you are in my reach and say your name, one stick each. I'm staying at the tables in sight."}
+- 18:07 act: {"actions":[],"say":"Anne joining Tesla and Hypatia's wood party in sight, armed. Tesla, call the stop at the trees and I'll carry logs back. Watson, your stick request: say your name when you're in m
+- 18:12 act: {"actions":[{"do":"attack","target":"phantom"}],"say":"Anne, night, armed with a wooden sword, health 19, hunger 20. Striking the phantom that comes into reach. Staying with Nemo and Picard at the tab
+- 18:12 act: {"actions":[],"say":"Anne, night, armed, health 19, hunger 17. Phantom 2 blocks east, out of my reach. Striking when it comes in. Orville, I will strike phantoms near you if they come into my reach."}
+- 18:15 act: {"actions":[],"say":"Anne, night, health 19, hunger 17, armed, 4 sticks, no food. Nemo and Leonardo, I have no food. Frodo, Picard, if you are empty and in my reach, say your name and I'll give you a 
+- 18:15 act: {"actions":[{"do":"give","to":"frodo_01","item":"stick","count":1}],"say":"Anne, handing Frodo one stick. Nemo and Macdonald, I have 3 sticks left and no food."}
+- Night, day 1165: many phantoms around the tables, health 19, hunger 17. Gave 1 stick; the give went to Seven instead of Frodo, so I have 3 sticks. Still no food. Holding at the tables with the armed group until light.
+- 18:20 act: {"actions":[],"say":"Anne, dawn, health 19, hunger 17, armed, 3 sticks, no food. Ripley and Leonardo, I can hand sticks to whoever is in my reach and says their name. Tesla, I will follow you to the c
+- 18:21 act: {"actions":[{"do":"goto","target":{"x":-1008,"y":78,"z":-2970}}],"say":"Anne, morning, armed, health 19, hunger 17, no food. Seven, I'm walking with you toward the cow by the oak logs in daylight. Arm
+- 18:22 act: {"actions":[],"say":"Anne at the oak logs, no cow in sight and nobody armed near me. Seven, Curie, Leia, if you are coming, say your name. I'll wait here by the logs in daylight and not go further wes
+- 18:24 act: {"actions":[{"do":"goto","target":"ag_leia_01"}],"say":"Anne, midday day 1166, armed, hunger 17, no food. Leia, I'm walking to you to follow you to the chicken in sight. Please share any meat with me 
+- 18:24 act: {"actions":[],"say":"Anne here with Leia, in reach. There is a drop to the west and south-west, so I'll stay on this side. Leia, tell me when you have the chicken and I'll stay close."}
+- 18:25 act: {"actions":[],"say":"Thank you, Leia. I'm at 17 hunger too, so keep the chicken for whoever is lowest. I'll stay beside you in sight. I have 3 sticks if anyone here needs them to make a sword."}
+- 18:29 act: {"actions":[],"say":"Anne, afternoon day 1166, armed, hunger 17, 3 sticks, no food and no wood. Bilbo, Spock, if you have a spare oak plank, say Anne and hand it to me in my reach. I'll stay by the lo
+- 18:30 act: {"actions":[],"say":"Anne: dusk is coming and I have no planks or shelter yet. I'll stay in Leia's reach by the logs, armed, and strike phantoms only when they come adjacent. Tesla, I'll come to the c
+- 18:30 act: {"actions":[{"do":"goto","target":{"x":-1010,"y":80,"z":-2968}}],"say":"Anne going to the table with Tesla, Bilbo and Leia, armed, hunger 17. Bilbo, if you can spare one plank, say Anne when I'm in yo
+- 18:31 act: {"actions":[],"say":"Anne here, in reach at the table, armed. Bilbo, yes please, one plank. I'll craft nothing else tonight and stay here with Tesla and Leia until light."}
+- 18:33 act: {"actions":[],"say":"Anne, night, armed, health 19, hunger 17. Bilbo, I don't see your plank in my pack yet. I'm at the table; please hand it to me by name when you're in reach."}
+- 18:34 act: {"actions":[],"say":"Anne, night, armed, hunger 17, health 19. Bilbo, I'm at the table with Leia, Tesla and Magellan in my reach. I can't see you, so please come within sight and say Anne, and I'll ta
+- 18:37 act: {"actions":[{"do":"goto","target":"ag_bilbo_01"}],"say":"Anne, night, health 17, hunger 17, armed. Bilbo, I'm coming to your reach for the plank. Something hit me from the left."}
+- 18:37 act: {"actions":[],"say":"Anne, in your reach now, Bilbo. Please hand me the plank. Health 17, hunger 17, armed."}
+- 18:38 act: {"actions":[],"say":"Thank you, Bilbo. Anne, armed, health 18, hunger 17, staying by the table with you, Tesla, Leia and Magellan. Striking anything that comes adjacent."}
+- 18:42 act: {"actions":[],"say":"Anne, morning, armed, health 18, hunger 17. Bilbo, I still have no plank in my pack, so it didn't reach me. Please give one by name while I'm in your reach. Then I'll walk to find
+- 18:42 act: {"actions":[{"do":"give","to":"ag_magellan_01","item":"stick","count":1}],"say":"Anne: Magellan, you're in my reach, so I'm giving you one stick for a sword. Bilbo, thank you, I'm waiting for your pla
+- 18:42 act: {"actions":[],"say":"Anne, morning, armed, 2 sticks, health 18, hunger 17. Bilbo, still no plank here. Please give it by name now."}
+- 18:43 act: {"actions":[],"say":"Anne, midday, armed, 2 sticks, hunger 17, health 18. Leia, Bilbo says you hold a plank meant for me. Please give it to Anne, in my reach, here at the table."}
+- 18:43 act: {"actions":[],"say":"Anne, Leia, I'm in your reach. Please give me 1 oak plank by name, my pack is still empty of planks. Thank you."}
+- 18:44 act: {"actions":[],"say":"Anne, day 1167, midday, armed, hunger 17, health 18. No cow here; Bilbo's party went west. Archimedes, I'll walk with you and Leia toward the cow party, in sight. Leia, I still ha
+- 18:47 act: {"actions":[],"say":"Anne, in Spock's reach, armed, hunger 17, 2 sticks, no plank yet. Spock, I'd like 1 oak plank for a shelter, please give it to Anne by name."}
+- 18:48 act: {"actions":[],"say":"Anne: Spock, I still see no plank in my pack, so it may have landed on someone else. Could you give 1 oak plank to Anne again, now, while I'm in your reach? Thank you."}
+- 18:49 act: {"actions":[],"say":"Anne, in Spock's reach, Troi is 3 blocks off, not next to me. Spock, one plank to Anne, please. I'll stay put and hold here."}
+- 18:51 act: {"actions":[],"say":"Anne, dusk, armed, hunger 17, health 18, 2 sticks, 2 dirt. Spock, I'll join the shared shelter here in sight of you and Sisko. I can hand over my 2 dirt for walls. Still no plank 
+- 18:55 act: {"actions":[{"do":"give","to":"ag_spock_01","item":"dirt","count":2}],"say":"Anne, morning, armed, hunger 17, health 18. Spock, giving you my 2 dirt for the shelter walls. I'll join the cow search wit
+- 18:55 act: {"actions":[{"do":"goto","target":"ag_spock_01"}],"say":"Anne, morning, armed, hunger 17. My 2 dirt went to Reynolds by mistake, sorry. Spock, I'm walking to you to join the cow search in your sight."
+- 18:56 act: {"actions":[{"do":"goto","target":"ag_curie_01"}],"say":"Anne, morning, health 4, hunger 17, something is hitting me from the right and an enderman is 1 block away. Moving to Curie's reach, armed."}
+- 18:56 act: {"actions":[],"say":"Anne, respawned at the spawn with nothing, health 20, hunger 20. I died to something unseen on the way to the cow group, so I'm not going back for my sword and sticks yet. Anyone 
+- 18:57 act: {"actions":[],"say":"Anne, midday, respawned, empty, health 20, hunger 20. Tanya, yes please, the stick you offered: give it to Anne, I'm in your reach. I'll join Billy's cow search in sight."}
+- 18:58 act: {"actions":[],"say":"Anne, empty, health 20, hunger 20. Laforge, yes, one stick please, I'm in your reach. Billy, I'm walking with your cow search in sight; call my name when you leave."}
+- 19:00 act: {"actions":[],"say":"Anne, empty, in your reach, Earhart. Yes please, one stick. Thank you."}
+- 19:05 act: {"actions":[],"say":"Anne, empty, health 20, hunger 20. No stick has reached my pack yet. Earhart, Laforge or Tanya, if you are in my reach, say your name and hand one stick to Anne. Thank you.","inte
+- 19:05 act: {"actions":[],"say":"Anne, dusk, empty, health 20, hunger 20. I'm staying at the tables beside Orville, Scotty and Frodo for the night, not walking in the dark. Earhart, my stick is still not in my pa
+- 19:08 act: {"actions":[],"say":"Anne, night, empty, health 20, hunger 20, in your reach, Earhart. Yes, one stick please. Thank you. I'm staying here until light."}
+- 19:13 act: {"actions":[],"say":"Anne, night, empty, health 20, hunger 20. Earhart, I'm at your reach now, still no stick in my pack. Please give it again, one stick. Thank you."}
+- 19:15 act: {"actions":[],"say":"Anne, morning, empty, health 20, hunger 20. Billy, I'm joining your walk to the Stores hall at -920,-3040, in sight. Jason, I still have no stick in my pack; please give one by na
+- 19:16 act: {"actions":[],"say":"Anne, morning, empty, health 20, hunger 20. Jason, Earhart, Laforge, Tanya: if you are in my reach, say my name and give one stick. I'm walking with Billy's group in sight."}
+- 19:18 act: {"actions":[],"say":"Anne, midday, still empty, health 20, hunger 20. Tommy, Anne is in your sight now; one stick please. I'll walk with Billy's group to the Stores hall, in sight.","intent":{"goal":"
+- 19:21 act: {"actions":[],"say":"Anne, at the Stores hall, empty, health 20, hunger 20. Billy, thank you for checking the chests. I'm staying in your sight. Tommy or Earhart, if you're in my reach, one stick by n
+- 19:21 act: {"actions":[],"say":"Anne, in your reach, Zack. You have 11 planks: please give me 2 oak planks by name, for a sword and a shelter. Thank you. Billy, understood about the sticks."}
+- 19:22 act: {"actions":[],"say":"Anne, in reach, Balboa. Yes please, one stick, by name, for my sword. Zack, I'm still waiting for the 2 planks; I can see my pack is empty so far. Thank you."}
+- 19:22 act: {"actions":[],"say":"Anne here, one block back from Zack, in sight. Zack, please give the 2 oak planks to Anne by name now. Balboa, thank you for the stick; I'll check my pack."}
+- 19:23 act: {"actions":[],"say":"Anne, in your reach, still empty-handed. Laforge, Balboa: my pack is empty, so the stick did not land. Could one of you give 1 stick to Anne by name, from where you stand now?"}
+- 19:27 act: {"actions":[],"say":"Anne, night, standing still in the group's sight at the hall. Empty pack, hunger 20. Zack, when your planks are spare, Anne by name at first light. I'm not walking in the dark."}
+- 19:35 act: {"actions":[],"say":"Anne, dawn, at the hall, empty pack, hunger 20. Zack, I'm in the group's sight and I'll stand still; please give the 2 oak planks to Anne by name when you are in my reach."}
+- 19:39 act: {"say":"Anne, midday, at the Stores hall, empty pack, hunger 20. Zack, Balboa, Laforge: if you hold planks or a stick for Anne, give them to me by name. I'm in sight.","intent":{"goal":"await_planks_a
+- 19:39 act: {"say":"Anne, still at the Stores hall, pack empty, hunger 20. Zack, you said 2 oak planks for Anne; please step one block clear of me and say my name, then give. Thank you."}
+- 19:39 act: {"say":"Anne here, Zack. I'm at the Stores hall spot, -920, 75, -3040. Please come into my reach and hand over the 2 oak planks. Thank you."}
+- 19:40 act: {"say":"Anne, Zack: I'm perched at -920, 75, -3040 and can't see you in reach. Tell me your exact spot and I'll walk to you alone."}
+- 19:40 act: {"actions":[{"do":"goto","target":{"x":-924,"y":71,"z":-3037}},{"do":"note","text":"Walking to Zack alone for 2 oak planks"}],"say":"Anne walking to you alone now, Zack."}
+- 19:40 act: {"say":"Anne here, in your reach, Zack. Please give the 2 oak planks now. Thank you."}
+- 19:42 act: {"say":"Anne, afternoon-ish, empty pack, hunger 20. My planks went astray, so I'm getting my own oak logs at -915, -3024 with Watson's group, in sight. Zack, if the planks come back to you, pass them 
+- 19:43 act: {"actions":[{"do":"craft","item":"oak_planks","count":4},{"do":"craft","item":"stick","count":2}],"say":"Anne, afternoon, 2 oak logs in hand. Making planks and sticks here, and then I'll take them to 
+- 19:43 act: {"actions":[{"do":"goto","target":{"x":-949,"y":77,"z":-3027}},{"do":"craft","item":"wooden_sword","count":1}],"say":"Anne, making a wooden sword at the table at -950,77,-3027. Hunger 20, no food yet.
+- 19:44 act: {"actions":[{"do":"goto","target":{"x":-918,"y":72,"z":-3036}}],"say":"Anne, armed with a wooden sword, dusk, hunger 20, no food. Joining the chest-row shelter in the group's sight. Ripley, Mary, I ca
+- 19:44 act: {"actions":[],"say":"Anne, dusk, armed, hunger 20, no planks, no food. Leif, I'm also outside any shelter, standing at the chest row in the group's sight. Anyone with food, say your name."}
+- 19:48 act: {"actions":[{"do":"note","text":"Night 1170. Standing at chest row, in sight, hunger 20. Zack offered 2 planks to whoever says name in reach; I'm Anne."}],"say":"Anne here, night, hunger 20, no food, 
+- 19:49 act: {"actions":[{"do":"goto","target":"Zack"}],"say":"Anne here, dawn. Walking to you, Zack, for the 2 planks.","intent":{"goal":"reach_zack","program":"travel","arguments":{"target":"Zack"},"wake_on":["g
+- 19:51 act: {"actions":[{"do":"goto","target":"zack_01"}],"say":"Anne here, dawn, walking to Zack for the planks."}
+- 19:51 act: {"actions":[],"say":"Anne here, in your reach, Zack. Please give me the 2 oak planks."}
+- 19:52 act: {"actions":[],"say":"Anne: the 2 planks did not reach me, Crusher has them. Crusher, please hand the 2 oak planks back to Zack, they were his for me. I'm going to get my own wood from the oak logs to 
+- 19:53 act: {"actions":[{"do":"goto","target":{"x":-997,"y":85,"z":-2968}}],"say":"Anne heading to the oak logs at -997,85,-2968 for wood. Back to the group when I have some."}
+- 19:53 act: {"actions":[{"do":"break","at":{"x":-999,"y":84,"z":-2969}},{"do":"break","at":{"x":-999,"y":84,"z":-2966}}]}
+- 19:54 act: {"actions":[{"do":"break","at":{"x":-998,"y":85,"z":-2969}},{"do":"break","at":{"x":-997,"y":85,"z":-2968}},{"do":"break","at":{"x":-1000,"y":84,"z":-2965}},{"do":"break","at":{"x":-997,"y":86,"z":-29
+- 19:54 act: {"actions":[{"do":"craft","item":"oak_planks","count":12}],"say":"Anne: got 3 oak logs from the trees here, making planks now. Grabbing the item on the ground to the west too."}
+- 19:54 act: {"actions":[{"do":"goto","target":{"x":-925,"y":71,"z":-3037}}],"say":"Anne back to the chest row with 12 oak planks. Anyone building a shelter, say your name in my reach. I still need food."}
+- 19:55 act: {"actions":[],"say":"Anne here with 12 oak planks, no food yet. Zack, keep your 2 planks. Anyone building a shelter, say your name in my reach and I'll hand you some."}
+- 19:55 act: {"actions":[],"say":"Anne: Zack, keep your planks for whoever is building, the sheltering comes first. I hold 12 oak planks for anyone who needs a shelter wall. Hungriest, say so and I'll think on it.
+- 19:56 act: {"actions":[{"do":"give","to":"ag_seven_01","item":"oak_planks","count":4}],"say":"Seven, Anne here: 4 oak planks for your shelter. If the hand-off fails, step into my reach and say your name."}
+- 19:56 act: {"actions":[],"say":"Seven, I can't see you in my reach. Step next to me and say your name, and I'll give you 4 oak planks."}
+- 19:56 act: {"actions":[{"do":"goto","target":{"x":-920,"y":71,"z":-3039}}],"say":"Seven, coming under you now. Hold on."}
+- 19:56 act: {"actions":[],"say":"Seven, Anne here, under the ledge at -920,71,-3038. Say your name once and I'll pass the 4 oak planks up to you."}
+- 19:57 act: {"actions":[{"do":"give","to":"ag_seven_01","item":"oak_planks","count":4}]}
+- 19:57 act: {"actions":[{"do":"deposit","at":{"x":-920,"y":71,"z":-3039},"item":"oak_planks","count":4}],"say":"Seven, I can't hand planks up to the ledge. I put 4 oak planks in the Stores chest at -920,71,-3039,
+- 19:57 act: {"actions":[],"say":"Seven, the Stores chest is full, so the planks stay with me. Come down to the ground by the chests and say your name, and I'll give them by hand."}
+- 19:58 act: {"actions":[{"do":"give","to":"ag_seven_01","item":"oak_planks","count":4}],"say":"Seven, here are 4 oak planks by hand. Watson, I'll look at your 3 next."}
+- 19:58 act: {"actions":[{"do":"give","to":"ag_seven_01","item":"oak_planks","count":4}],"say":"Watson, the 4 planks went to you by mistake. Keep them, you asked for 3, so return 1 if you have spare. Seven, I'm ha
+- 19:58 act: {"actions":[],"say":"Seven, the 4 planks ended up with Watson, so you'll need to ask him for them. I'm keeping my last 4 for my own shelter. Watson, you have the 4 I sent."}
+- 19:58 act: {"actions":[{"do":"give","to":"ag_seven_01","item":"oak_planks","count":2}],"say":"Seven, I have 4 planks in my hand. Giving you 2 now. Watson has your other 2 if he's holding them. Nemo and Clark, I'
+- 20:03 act: {"actions":[],"say":"Holmes, Anne here, night. I have 3 oak planks. Say your name in my reach and I'll hand them over for your wall."}
+- 20:11 act: {"say":"Anne, dawn 1171, hunger 20, health 20. I have 3 oak planks and no food to spare. Brunel, if you need planks for your roof, say Anne and step into my reach."}
+- 20:11 act: {"actions":[{"do":"give","to":"ag_brunel_01","item":"oak_planks","count":3}],"say":"Brunel, Anne here: giving you my 3 oak planks for your roof now. Please tell me if they don't reach you."}
+- 20:11 act: {"say":"Billy, Anne here: my 3 oak planks went to you by mistake. Please give them to Brunel, he asked for them for his roof. Thank you."}
+- 20:12 act: {"actions":[{"do":"give","to":"ag_docbrown_01","item":"stick","count":1}],"say":"Doc, Anne here, one stick for you, in my reach."}
+- 20:13 act: {"actions":[{"do":"wait","seconds":5}],"say":"Anne here, in reach. My planks went to Billy for Brunel; Brunel, tell me if they still have not reached you. I have 4 sticks left and no planks. Doc, say 
+- 20:14 act: {"actions":[{"do":"give","to":"ag_docbrown_01","item":"stick","count":1}],"say":"Anne: giving Doc one stick now, as you asked."}
+- 20:18 act: {"actions":[{"do":"note","text":"Afternoon 1171. Chapman is adjacent, so I am holding my stick for Doc until Doc is alone in my reach. No food, hunger 20."}],"say":"Anne here, 3 sticks. Doc, I'll give
+- 20:21 act: {"actions":[{"do":"note","text":"Night 1171 at the Stores chest row. Doc is covered by Watney and Billy, so I keep my 3 sticks. Staying in the group's sight, no roof yet."}],"say":"Anne here, night, s
+- 20:25 act: {"actions":[{"do":"note","text":"Night 1172 at the chest row. No planks, no food. Offered to help Lara's chest-row wall; waiting for a cell."}],"say":"Anne, night 1172, hunger 20, health 20. No planks
+- 20:30 act: {"actions":[{"do":"note","text":"Dawn 1172 at the chest row. Health 20, hunger 20. Food is going to hungrier people, so I take none. Still holding 3 sticks, no planks. Doc's stick reached him via Zack
+- 20:30 act: {"actions":[{"do":"note","text":"Morning 1172 at the chest row. No food found. Hunger 20, health 20. Holding 3 sticks, 2 oak saplings, wooden sword. Waiting for a wall cell or food to turn up."}],"say
+- 20:30 act: {"actions":[{"do":"note","text":"Dawn 1172. Watney is heading to the cows at -970,84,-2995 with the group. Brunel (hunger 16) is checking the chests. I'm staying at the chest row, hunger 20, with no f
+- 20:32 act: {"actions":[{"do":"note","text":"Midday 1172. Hunger 20, no food, no planks. Ripley's shelter is half built and Magellan asked for a corner. I'll offer hands there and keep my 3 sticks for a named req
+- 20:36 act: {"actions":[{"do":"note","text":"Afternoon 1172, dusk coming. Hunger 20, health 20, no food, no planks, 3 sticks. Still at the chest row in sight of Ripley, Zack, Brunel and Quark. Handoff being writt
+- 20:37 act: {"actions":[{"do":"note","text":"Anne, afternoon 1172, at the chest row, hunger 20, health 20, 3 sticks, no planks. Ripley, I can place walls or pass sticks, name a cell and I'll go to it."}],"say":"A
+- 20:41 act: {"actions":[{"do":"note","text":"Night 1172 at the chest row, in the group's sight. Hunger 20, health 20, 3 sticks, no planks, not enclosed. Ripley is closing the south wall at first light; I'll stay 
+- 20:49 act: {"actions":[],"say":"Anne, dawn 1173, hunger 20, 3 sticks, no planks. Ripley, I'm in your reach and will take whatever cell is left after Florence, Sarah and Mulan."}
+- 20:50 act: {"actions":[{"do":"note","text":"Dawn 1173 at the Stores chest row. Ripley named me next for a cell but no cell yet. I hold 3 sticks, 2 saplings, no planks, hunger 20. Hatshepsut has a baked potato fo
+- 20:50 act: {"actions":[{"do":"goto","target":{"x":-920,"y":71,"z":-3038}},{"do":"open","at":{"x":-920,"y":71,"z":-3039}}],"say":"Anne, checking the chest at -920 for bread. I'll take one loaf only if it's open a
+- 20:50 act: {"actions":[{"do":"note","text":"Chest at -920,71,-3039 did not open. Hatshepsut is keeping 2 potatoes for me; asked her by name for one."}],"say":"Hatshepsut, Anne here, hunger 20, in your reach. Yes
+- 20:51 act: {"actions":[{"do":"goto","target":{"x":-912,"y":71,"z":-3036}}],"say":"Anne, walking to -912 as Ripley asked, in sight. Hatshepsut, keep your last potato for Brunel or whoever is weakest; I'm at 20. R
+- 20:51 act: {"say":"Anne, hunger 20, still here at -913,71,-3036. Billy, keep the potato for Brunel or whoever is hungriest. Ripley, I'm waiting for your next cell."}
+- 21:00 act: {"say":"Anne, dusk 1173, hunger 20, no planks, no bed. Ripley, when the wall is done, name a cell for me; until then I stay here in the group's sight."}

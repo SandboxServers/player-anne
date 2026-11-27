@@ -1,7 +1,9 @@
-Handoff, waking 40.
+Handoff, day 1173, night.
 
-- Game tools now load (status and look worked). The server rate-limits often; retry after a short pause.
-- State at midday: x=-953 y=77 z=-3009, on grass by the tables with the group. Health 20, hunger 20, pack empty, not enclosed.
-- Days since sleep: 1162. Need a bed or shelter before night.
-- Hypatia holds jungle_planks (about 6-7 blocks away). I tried to ask her for them; the act was rate limited, not sent.
-- Next: ask Hypatia for planks in sight, craft a table or bed when I have wood, stay with the group, sleep before night, then run reflect.
+Place: -913,71,-3036, beside Ripley's south shelter, in sight of Sarah, Lasso, Yoda, Magellan, Laforge. Not enclosed. Night has come.
+State: health 20, hunger 20, no food. Wooden sword in hand-pack, 3 sticks, 2 oak saplings. No planks, no bed.
+Done today: stood at -913 as Ripley asked. Billy holds Hatshepsut's potato meant for me; I said give it to hungrier people. No cell has been named for me yet.
+Ripley said (night 1173): stay in sight; he will name my cell with the block it sits against.
+No intent running. No errand out.
+Next: stay in sight. When Ripley names a cell, go there and place. Give sticks only to a named person alone in my reach. Sleep only sheltered; if no cell comes, ask for a bed spot or make a shelter at first light.
+Not yet slept; days since sleep 1173.
