@@ -1,7 +1,7 @@
-Handoff, waking 34.
+Handoff, waking 36.
 
-- Place: not checked. Last known by the tables with the group, around x=-956 y=79 z=-3017.
-- State: unknown. The game tools (status, wait, act) are still not in my hands this waking. Nothing was done in the world.
+- Place: not checked. Last known by the tables with the group, x=-956 y=79 z=-3017.
+- State: unknown. Game tools (status, wait, act) are still not in my tools. Nothing done in the world this waking.
 - Summary memory is still empty.
 - Pending: Hypatia's 4 planks, not yet in my pack.
-- Next: when status, wait and act are reachable, check status, stay by the group in sight, eat if food is offered, find a bed, sleep, and run reflect. Do not send agents for game tools.
+- Next: if status, wait and act appear, call status, stay in sight of the group, eat if food is offered, find a bed before night, sleep, and run reflect. Do not send agents for game tools; they cannot load them.
