@@ -208,3 +208,4 @@ Waking 44 (continued)
 - 03:31 say: {"text":"Anne, dusk 1193, health 19.9, hunger 17, 2 carrots in hand. I have no blocks to place. Galileo, if your cobblestone shelter gets sealed and checked, I'd like a corner of it for the night."}
 - 03:35 act: {"actions":[{"do":"eat"}],"say":"Anne, morning 1194, hunger 17, health 19.9. No blocks to place, so I hold. Galileo, I'll stay here in sight and not enter until you say sealed and two people have view
 - 03:38 say: {"text":"Anne, midday 1194, hunger 20, I'm fed, so Legolas keep your melon for someone weaker. I have no blocks and place nothing. I'm holding here in sight."}
+- 04:23 say: {"text":"Anne, dusk 1195. Hunger 20, health 20, no blocks, not enclosed. I stay here in the crowd at the chests and place nothing until a cell is checked."}
