@@ -13,3 +13,12 @@
 - 05:53 act: {"actions":[{"do":"goto","target":{"x":-915,"y":71,"z":-3040}},{"do":"give","to":"gandalf_01","item":"carrot","count":1}],"say":"Gandalf, I am walking to you now, carrot in hand."}
 - 05:53 act: {"say":"Tesla, my give to Gandalf has not landed; it failed, he was out of my sight. I still hold the carrot. Gandalf, if you are alone and in my sight, say so and I will give it."}
 - 05:54 act: {"actions":[{"do":"give","to":"gandalf_01","item":"carrot","count":1}],"say":"Gandalf, I am giving you the carrot now."}
+- 05:58 act: {"actions":[{"do":"give","to":"ag_gandalf_01","item":"carrot","count":1}],"say":"Gandalf, here is my carrot. Eat it, and I hope it helps."}
+- Midday 1200 (wake): give to Gandalf failed again, others within 2 blocks of him. Carrot still mine. Health 18, hunger 17. Waiting in the crowd; no shelter yet, no intent running. Will give only when he stands alone in reach.
+- 05:59 act: {"actions":[{"do":"give","to":"ag_gandalf_01","item":"carrot","count":1}],"say":"Gandalf, giving you the carrot now."}
+- Three gives to Gandalf failed in a row (others within 2 blocks). Stopped trying. Gandalf says give when Laforge steps off. Morning 1200: still carrot in pack, hunger 17, no shelter, holding in the crowd.
+- 05:59 act: {"actions":[],"say":"Gandalf, three gives have failed because others stand too near you. The carrot is still mine. I will stop trying now and wait; say when you stand clear and I will try once more."}
+- 06:08 act: {"actions":[],"say":"Anne, midday 1201, hunger 17, one carrot. Gandalf, you have moved off and Knope has a melon for you, so I hold my carrot. Whoever is alone in my reach and names themselves first, 
+- 06:08 act: {"actions":[],"say":"Gandalf, thank you. Picard or Hermione, when you stand alone in my reach and name yourself, the carrot is yours."}
+- Afternoon 1201: Hermione named herself alone, but she was not in my reach, so I did not give. Asked her to step to arm's length. Wait ended by session reset. Carrot still mine, hunger 17, no shelter, in the crowd.
+- 06:13 act: {"actions":[],"say":"Hermione, I hear you. You are not in my reach yet. Step to arm's length of me and I will give the carrot at once. Uhura, if your give lands first, that is fine too."}
