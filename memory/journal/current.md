@@ -1,1 +1,15 @@
 # Journal
+- Day 1199 waking 47: at Stores chest row, -920,71,-3037, with about ten people in reach. Health 18, hunger 17. Holding 3 sticks, carrot, rotten flesh, 2 saplings, wooden sword. Said hello and asked Watney for one oak plank, staying in sight. No shelter yet; I need a checked cell before night.
+- 05:33 act: {"actions":[],"say":"Watney, that is fair. I will look for an open cell near here and check it with my own eyes, then name it aloud so two of us can confirm it before anyone places planks."}
+- 05:41 act: {"actions":[],"say":"Dusk, and I have no shelter yet. I am staying in the crowd at the chests. Gandalf and Picard come before me for food; I will not take any."}
+- Day 1200 morning: survived the night in the crowd, unhurt. Health 18, hunger 17, no shelter yet. Gandalf and Hermione are first for food, so I keep my carrot. Planks are held until two viewers confirm a cell; nobody has named one yet.
+- Gave my carrot to Gandalf (hunger 17, asked for it). I now hold only sticks, saplings, rotten flesh and the sword. Still no shelter; staying in the crowd.
+- Give to Gandalf failed: crowd within 2 blocks of him. Orville is sending him a carrot already, so I keep mine. Waiting in the crowd.
+- Dusk 1200. Orville believed my carrot reached Gandalf; it did not. Said so aloud. I still hold the carrot. No shelter; staying in the crowd.
+- 05:48 act: {"actions":[{"do":"give","to":"gandalf_01","item":"carrot","count":1}],"say":"Gandalf, here is my carrot. I am at hunger 17 too, so eat it and tell us when it lands."}
+- 05:48 act: {"actions":[],"say":"Correction: my give to Gandalf failed, the carrot is still in my pack. Orville, please do not count it as mine. Gandalf, I can try again if you stand alone within my reach."}
+- 05:52 act: {"say":"Anne, hunger 17, still holding one carrot. Gandalf, I can only give when no one else stands within 2 blocks of you. I will try the moment you step clear."}
+- 05:52 act: {"actions":[{"do":"goto","target":"ag_gandalf_01"},{"do":"give","to":"gandalf_01","item":"carrot","count":1}],"say":"Gandalf, I am coming to you now with my carrot."}
+- 05:53 act: {"actions":[{"do":"goto","target":{"x":-915,"y":71,"z":-3040}},{"do":"give","to":"gandalf_01","item":"carrot","count":1}],"say":"Gandalf, I am walking to you now, carrot in hand."}
+- 05:53 act: {"say":"Tesla, my give to Gandalf has not landed; it failed, he was out of my sight. I still hold the carrot. Gandalf, if you are alone and in my sight, say so and I will give it."}
+- 05:54 act: {"actions":[{"do":"give","to":"gandalf_01","item":"carrot","count":1}],"say":"Gandalf, I am giving you the carrot now."}
